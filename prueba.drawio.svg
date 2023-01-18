@@ -1,4 +1,4 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="191px" height="171px" viewBox="-0.5 -0.5 191 171" content="&lt;mxfile&gt;&lt;diagram id=&quot;IbqgJhwlXVyoDLZ5q9wN&quot; name=&quot;Page-1&quot;&gt;1VZNc5swEP01zLQHzxgRO83R2PnooZfm0LMMC2gqEBGLwf31ldDKgDNO0s40bS8gvX3SvpWEHkG0Lft7zevii0pBBmyZ9kG0CxiLVqF5WuDogNV65YBci9RB4Qg8ih9A4JLQVqTQzIiolERRz8FEVRUkOMO41qqb0zIl51lrnsMz4DHh8jn6TaRYOPQTux7xBxB54TOH6xsXKbknUyVNwVPVTaDoNoi2Wil0rbLfgrRr59fFjbu7ED0J01DhWwYwN+DAZUu1BWwtzdC4turwSCWvn1orKS65zkUVRBsTXda9eRpwKMziC1S1i11NYgg9LrgUOY1LjDbQ45ymldN7yCw8EPPq+yZJVGtqoZipRJzzDVafY4W28v3B8ZnCy0l/q1wJGU7qPZ97YQJ7LnmVgGOlqt2bDC/o/hMy/NztVJewewANfuV4SVz73yx0wCw3hVo1whyV5QdXy0efc6/nzE5gkWrenfPeb0csNweM/4XTQVo+v34i3lFQMxf013fq11aHzaSwA2gUxj427hLcDddkTFfizkmIlWFlcjCDTJhLOoozVSGZX8iof8dLIa1tPoA8gJ3VfoRYSks65Z4aAHmC1QD9BCJDuAdVAuqjoVCU3ZA5kTuHvt+NXnfCiqnPXRPIyV/z09yjBZkGuZDvjm43xCa/DNHtTw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="191px" height="351px" viewBox="-0.5 -0.5 191 351" content="&lt;mxfile&gt;&lt;diagram id=&quot;IbqgJhwlXVyoDLZ5q9wN&quot; name=&quot;Page-1&quot;&gt;3VdNc9owEP01niEHZrAcSDhiyNehl3LoWdiLralsubIMpr++krXGH5iUdKYN9ELst7va9ySxLzjeMilfJM3iLyIE7pBJWDreyiHEm7r60wAHC0xnUwtEkoUWchtgzX4CghNECxZC3klUQnDFsi4YiDSFQHUwKqXYd9O2gne7ZjSCE2AdUH6KfmOhii36SB4a/BVYFNed3dncRhJaJ6OSPKah2Lcg78nxllIIZZ+Scgnc7F29L7bu+Uz0SExCqi4pILZgR3mB2hwy47rUzww7dUDJsx+FoeQnVEYsdbyFjk6yUn9qsBJm8LESmY3dt2IKSjWmnEVYF2huIJs19VOEf6vOrAZ8mn5fBIEotBaMaSWsn6+xrI/F0tCvL07dyT3f9I/kctiqlt7+2mMd2FBO0wBsViiKje7wDu+/QaNeu2jzYuYMIFdfqTpHrriZjXaIyQ0hEznTV2Uyslru6p4b2c3cMxWHku77ef/uRExuBMq3t2N097n3A9m8te7ENVDKe5Tq06rqdkLPsFvZKdIhQ3YgFdN2srBDcVWNTR9H5MqS8IXO2vLKHLZMD23P34pUoRm6BN+facK4sdFX4Dswq5ovpUq4STr2bhsCeoThAGULQoN4AZGAkgedcrRrNCt0a/cR3/eN97lzxOK27z0gSNFvo+PajSXpB3SlYYfyrtmhlpzm7SO/HW8aNAUOaXV4puqtMd1mfJqkgEqbsVaSpdGNGkZPPToIyzNOD76QIcjRwKDpG0m3QHvqb2o+tlWfptye7P+kxSFL+0/PsHucSBgUekUD/WR6D8z4iwe6N790oN9/fKDr1+bnTBVr/Sb0nn4B&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
         <rect x="0" y="0" width="190" height="170" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
@@ -29,16 +29,16 @@
                                     + withdraw(double)
                                 </p>
                                 <p style="margin: 0px ; margin-left: 4px">
-                                    + getBalance: double
+                                    + getBalance(): double
                                 </p>
                                 <p style="margin: 0px ; margin-left: 4px">
-                                    + getInterestRate: double
+                                    + getInterestRate(): double
                                 </p>
                                 <p style="margin: 0px ; margin-left: 4px">
-                                    + setInterestRate(double)
+                                    + setInterestRate(double): void
                                 </p>
                                 <p style="margin: 0px ; margin-left: 4px">
-                                    + getInterestRate: double
+                                    + getInterestRate(): double
                                 </p>
                             </div>
                         </div>
@@ -46,6 +46,56 @@
                 </foreignObject>
                 <text x="0" y="12" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
                     BankAccount...
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="210" width="190" height="140" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 192px; height: 140px; padding-top: 210px; margin-left: 0px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; width: 190px; height: 140px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: nowrap;">
+                                <p style="margin: 0px ; margin-top: 4px ; text-align: center">
+                                    <i>
+                                        Clase
+                                    </i>
+                                </p>
+                                <hr size="1"/>
+                                <p style="margin: 0px ; margin-left: 4px">
+                                    <u>
+                                        - lenght: Int
+                                        <br/>
+                                        - car: String
+                                    </u>
+                                </p>
+                                <hr size="1"/>
+                                <p style="margin: 0px ; margin-left: 4px">
+                                    <u>
+                                        + displayBorder(): void
+                                        <br/>
+                                        + displayBorder(int): void
+                                        <br/>
+                                    </u>
+                                </p>
+                                <p style="margin: 0px ; margin-left: 4px">
+                                    <u>
+                                        + displayBorder(String): void
+                                        <br/>
+                                    </u>
+                                </p>
+                                <p style="margin: 0px ; margin-left: 4px">
+                                    <u>
+                                        + displayBorder(String, int): void
+                                    </u>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="0" y="222" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    Clase...
                 </text>
             </switch>
         </g>
